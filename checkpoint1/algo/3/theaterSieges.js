@@ -18,9 +18,16 @@ exemple :
 */
 
 function theaterSieges() {
-  // Your code here !
+  const myList = [];
+  for(let y=0; y < 26; y++){
+    let myResult = [];
+  for(let i = 0; i < 100;i++){
+    myResult.push((y+1) + "-" + (i+1))
+  }
+  myList.push(myResult)
 }
-
+return myList
+}
 console.log(theaterSieges());
 
 module.exports = theaterSieges;
