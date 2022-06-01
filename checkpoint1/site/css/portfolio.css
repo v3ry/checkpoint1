@@ -84,6 +84,11 @@ p {
 .disabled{
   opacity:50%;
 }
+.btnList{
+  width:100px;
+  height:30px;
+  border-radius: 6px;
+}
 
 @media screen and (min-width:700px){
   .navbar{
