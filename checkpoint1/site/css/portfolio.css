@@ -80,6 +80,11 @@ p {
   padding-left: 15px;
   padding-right: 15px;
 }
+
+.disabled{
+  opacity:50%;
+}
+
 @media screen and (min-width:700px){
   .navbar{
     display:flex;
@@ -94,6 +99,12 @@ p {
     display:flex;
     flex-direction: row-reverse;
     justify-content:center;
+  }
+  .contents{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
   }
   
 }
