@@ -92,6 +92,7 @@ p {
   }
   .skills{
     display:flex;
+    flex-direction: row-reverse;
     justify-content:center;
   }
   
@@ -104,6 +105,9 @@ p {
   }
   .introduction{
     display:none;
-    
+  }
+  .skills{
+    display:flex;
+    flex-direction:column-reverse;
   }
 }
