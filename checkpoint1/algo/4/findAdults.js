@@ -28,16 +28,14 @@ const persons = [
 function findAdults(arr) {
   const liRes = [];
 
-  let liTemp = persons.filter((e)=>{
+  let liTemp = arr.filter((e)=>{
     return e.sex == "female" && e.age>=18;
   });
   liRes.push(liTemp)
-  console.log(liTemp)
-  let liTemp2 = persons.filter((e)=>{
+  let liTemp2 = arr.filter((e)=>{
     return e.sex == "male" && e.age>=18;
   });
   liRes.push(liTemp2)
-  console.log(liTemp2)
   console.log(liRes)
   return liRes
 }

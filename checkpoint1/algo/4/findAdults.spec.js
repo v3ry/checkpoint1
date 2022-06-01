@@ -14,8 +14,8 @@ const persons = [
 ];
 
 test('both length should be 3', () => {
-  expect(findAdults(persons)[0].length).toBe(5);
-  expect(findAdults(persons)[1].length).toBe(4);
+  expect(findAdults(persons)[0].length).toBe(3);
+  expect(findAdults(persons)[1].length).toBe(3);
 });
 
 test('adult array should include Homer', () => {
