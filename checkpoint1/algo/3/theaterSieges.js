@@ -21,9 +21,9 @@ function theaterSieges() {
   const myList = [];
   for(let y=0; y < 26; y++){
     let myResult = [];
-  for(let i = 0; i < 100;i++){
-    myResult.push((y+1) + "-" + (i+1))
-  }
+    for(let i = 0; i < 100;i++){
+      myResult.push((y+1) + "-" + (i+1))
+    }
   myList.push(myResult)
 }
 return myList

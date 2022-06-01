@@ -11,7 +11,7 @@ Your 1st checkpoint !
 
 ---
 
-**A chaque fois que tu complètes un exercice:.**
+**A chaque fois que tu complètes un exercice:**
 
 - Fais un commit avec un message EXPLICITE sur ta branche.
 - Fais un push de ta branche.
