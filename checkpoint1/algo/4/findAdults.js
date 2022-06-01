@@ -26,7 +26,20 @@ const persons = [
 ];
 
 function findAdults(arr) {
-  // Your code here !
+  const liRes = [];
+
+  let liTemp = persons.filter((e)=>{
+    return e.sex == "female" && e.age>=18;
+  });
+  liRes.push(liTemp)
+  console.log(liTemp)
+  let liTemp2 = persons.filter((e)=>{
+    return e.sex == "male" && e.age>=18;
+  });
+  liRes.push(liTemp2)
+  console.log(liTemp2)
+  console.log(liRes)
+  return liRes
 }
 
 module.exports = findAdults;
