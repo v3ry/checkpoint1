@@ -12,10 +12,19 @@ qui te permet de tester si ta fonction est bonne. Le résultat doit être 13
 de points de notre équipe à la fin du championnat
 */
 
-const scores = ['1:0', '2:0', '3:0', '4:4', '2:2', '3:3', '1:4', '2:3', '2:4', '3:3'];
+const scores = ['1:0', '2:0', '3:0', '4:4', '2:2', '3:3', '1:4', '2:3', '2:4', '3:4'];
 
 function getPoints(array) {
-  // Your code here !
+  let totalScore = 0
+  array.forEach(val=>{
+    let score = val.split(":");
+    if(score[0] > score[1]){
+      totalScore+=3
+    }else if(score[0] === score[1]){
+      totalScore+=1
+    }
+  })
+  return totalScore;
 }
 
 module.exports = getPoints;
